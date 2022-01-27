@@ -1,0 +1,42 @@
+.loading-spinner{
+	text-align: center;
+	width: 100%;
+	z-index: 0
+}
+
+.icon-loading{
+	bottom: 4px
+}
+
+.icon-loading:after,
+.icon-loading:before {
+	z-index: 0
+}
+
+.icon-loading:before {
+	-webkit-animation-name: move-right-fast;
+	animation-name: move-right-fast
+}
+
+.small{
+	-webkit-transform: scale(.6, .6);
+	transform: scale(.6, .6)
+}
+
+.small .icon-loading{
+	height: 12px
+}
+
+@-webkit-keyframes move-right-fast {
+	50% {
+		-webkit-transform: translateX(29px);
+		transform: translateX(29px)
+	}
+}
+
+@keyframes move-right-fast {
+	50% {
+		-webkit-transform: translateX(29px);
+		transform: translateX(29px)
+	}
+}

@@ -1,0 +1,17 @@
+.tooltip-popover-container .tooltip-popover-msg.top-left,
+.tooltip-popover-container .tooltip-popover-msg.top-right {
+	min-width: initial;
+	position: fixed;
+	z-index: 5
+}
+
+.tooltip-popover-container .tooltip-popover-msg.visible {
+	display: block
+}
+
+.tooltip-popover-container .tooltip-popover-msg.top-left:after,
+.tooltip-popover-container .tooltip-popover-msg.top-left:before,
+.tooltip-popover-container .tooltip-popover-msg.top-right:after,
+.tooltip-popover-container .tooltip-popover-msg.top-right:before {
+	border-bottom: 0
+}

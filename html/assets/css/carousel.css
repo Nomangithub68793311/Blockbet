@@ -1,0 +1,19 @@
+.carousel.banner-carousel {
+	display: block;
+	margin: var(--sp-banner-wrapper-margin, 10px 0)
+}
+
+.carousel.banner-carousel .carousel .carousel-inner>.carousel-item>.item,
+.carousel.banner-carousel .carousel .carousel-inner>.carousel-item>.item .banner-slide {
+	min-height: var(--sp-banner-wrapper-min-height, 160px)
+}
+
+.carousel.banner-carousel .carousel .carousel-inner>.carousel-item>.item .banner-slide .img-container .img-responsive {
+	max-height: var(--sp-banner-wrapper-min-height, 160px)
+}
+
+@media only screen and (min-width:1360px) {
+	.carousel.banner-carousel .carousel .carousel-inner>.carousel-item>.item .banner-slide.bg-image.no-image .carousel-text {
+		text-align: center
+	}
+}

@@ -1,0 +1,102 @@
+.content-wrapper .sp-primary-nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    overflow: visible;
+}
+.sp-primary-nav .custom-tab.small-tab.sport a.active {
+    background-color: #ededed;
+}
+.sp-primary-nav .custom-tab.tab-menu {
+    align-items: center;
+    background-color: #ededed;
+}
+.sp-primary-nav .custom-tab.small-tab.sport li {
+    padding: 0;
+    flex: auto;
+    flex-flow: row nowrap;
+    background-color: #ededed;
+}
+.sp-primary-nav .custom-tab.tab-menu .static-btn {
+    padding: 0;
+}
+.sp-primary-nav .custom-tab.small-tab.sport .static-btn .icon.static-icon,
+.sp-primary-nav .custom-tab.small-tab.sport li .icon {
+    margin: 0;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    background-color: #ededed;
+}
+.sp-primary-nav .custom-tab.small-tab.sport .static-btn .icon.icon-arrow-next {
+    font-size: 8px;
+}
+.sp-primary-nav .custom-tab.small-tab.sport li .static-title {
+    display: none;
+}
+.max-container.bx-content-section-container .section-container {
+    padding: 0;
+}
+.max-container.bx-content-section-container .section-container
+.section-item.section-1x4 {
+    margin-bottom: 0;
+}
+.sp-primary-nav .custom-tab.small-tab.tab-menu.sport {
+    padding-left: 0;
+}
+.sp-primary-nav .static-btn .icon.static-icon {
+    border: none;
+    color: black;
+}
+.sp-primary-nav .custom-tab.small-tab.sport a {
+    padding: 12px 0;
+    color: black;
+}
+.sp-primary-nav .custom-tab.small-tab.sport a.more-sports {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 769px) {
+    .sp-primary-nav {
+        height: auto;
+    }
+    .marketing-page-container {
+        margin: 0;
+    }
+    .sp-primary-nav .custom-tab.small-tab.sport {
+        padding-top: 0;
+    }
+    .sp-primary-nav .custom-tab.small-tab.sport li .static-title {
+        display: block;
+    }
+    .sp-primary-nav .custom-tab.small-tab.sport a {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .sp-primary-nav .custom-tab.small-tab.sport a .static-title {
+        margin: 0;
+    }
+    .sp-primary-nav .custom-tab.small-tab.sport .static-btn .icon.static-icon,
+    .sp-primary-nav .custom-tab.small-tab.sport li .icon {
+        margin: 0 8px 0 0;
+    }
+    .sp-primary-nav .custom-tab.small-tab.sport {
+        padding: 12px 0;
+    }
+    .sp-primary-nav .custom-tab.small-tab.sport a.more-sports {
+        flex-flow: row-reverse nowrap;
+    }
+    .sp-primary-nav .custom-tab.small-tab.sport li a.more-sports .icon.static-icon {
+        margin: 2px 0 0 8px;
+    }
+    .sp-primary-nav .custom-tab.small-tab.sport .static-btn .icon.static-icon,
+    .sp-primary-nav .custom-tab.small-tab.sport li .icon {
+        line-height: 20px;
+    }
+}
